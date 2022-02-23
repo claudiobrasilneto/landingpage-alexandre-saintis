@@ -5,27 +5,45 @@
     }
     header{
         flex-direction: column;
+        text-align: left;
     }
 
     main {
         flex-direction: column;
     }
 
+    p {
+        text-align: center !important;
+    }
+
     h2 {
         font-size: 38px;
+        text-align: center;
     }
 
     form {
         margin: 0 auto;
         width: 100%;
+        padding: 0;
     }
 
     input {
         align-self: center;
+        width: 90%;
     }
 
+    
+  form [type="submit"] {
+      width: 100%;
+  }
+
     img {
-        width: 300px;
+        display: none;
+        width: 100%;
         margin-top: 15px;
+    }
+    aside {
+        margin: 0 auto;
+
     }
 }
