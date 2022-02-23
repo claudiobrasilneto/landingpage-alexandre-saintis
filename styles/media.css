@@ -16,9 +16,14 @@
         text-align: center !important;
     }
 
+    #title {
+        text-align: center;
+    }
+
     h2 {
         font-size: 38px;
         text-align: center;
+        line-height: 10px;
     }
 
     form {
@@ -45,5 +50,14 @@
     aside {
         margin: 0 auto;
 
+    }
+}
+
+@media screen and (max-width: 398px) {
+
+    h2 {
+        font-size: 38px;
+        text-align: center;
+        line-height: 40px;
     }
 }
